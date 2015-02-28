@@ -2,9 +2,9 @@
  * Created by kaijiehuang on 2/27/15.
  * To test the put() and remove() method of the SkipList
  * Consider possible extreme case like:
- * put method: numOfHeads + 1 > current height
- * remove method: remove the only node of a certain level
- * remove method: no such element
+ * put method: numOfHeads + 1 > current height of the list (level of the head)
+ * remove method: remove the only node in a level and thus the whole level is deleted.
+ * remove method: no such element exception
  *
  *
  */
